@@ -42,7 +42,7 @@ const getWeather = () => {
                 img.setAttribute('src', './img/cloud.png')
             }
         })
-        .catch(() => warning.textContent = 'Wpisz poprawną nazwę miasta!')
+        .catch(() => warning.textContent = 'Please enter correct city name')
 
 }
 
